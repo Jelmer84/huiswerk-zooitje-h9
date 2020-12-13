@@ -39,7 +39,7 @@ article{
     background-color:hsl(23, 100%, 65%);
     border-radius: 50%;
     display: inline-block;
-    box-shadow: 5px 5px 5px hsl(63, 56%, 83%);
+    filter:drop-shadow(5px 5px 5px hsl(63, 56%, 83%));
 }
 
 .circle-two{
