@@ -1,0 +1,75 @@
+*{
+    font-family: Lucida Grande, serif;
+    width: 700px;
+}
+
+header{
+    border-style:dashed;
+    background-color:hsl(63, 56%, 38%);
+    color: white;
+    border-color: black;
+    text-align: center;
+    font-size: 95%;
+    position: fixed;
+    top: 0;
+}
+
+body{
+    border-style:double;
+    border-color:hsl(63, 56%, 38%);
+    background-color:hsl(74, 95%, 93%);
+    padding-top: 70px;
+}
+
+article{
+    border-style: solid;
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+    border-color:hsl(63, 56%, 38%);
+    background-color:hsl(63, 56%, 68%) ;
+    margin: 10px;
+    padding-inline: 10px;
+    width: 640px;
+    height: 150px;
+}
+
+.circle-one{
+    height: 50px;
+    width: 50px;
+    background-color:hsl(23, 100%, 65%);
+    border-radius: 50%;
+    display: inline-block;
+    box-shadow: 5px 5px 5px hsl(63, 56%, 83%);
+}
+
+.circle-two{
+    height: 50px;
+    width: 50px;
+    background-color:hsl(23, 100%, 65%);
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 20px;
+    box-shadow: 5px 5px 5px hsl(0, 100%, 0%);
+}
+
+p{
+    display: inline;
+    vertical-align: top;
+    line-height: 1%;
+}
+
+
+
+
+
+/*Let op: Je mag niets veranderen in de aangeleverde HTML behalve het toevoegen van class of id-attributen*/
+/*De cirkels maak je met de twee lege <div-tags in het eerste <article> element*/
+/*Koppel een extern stylesheet aan jouw HTML-bestand*/
+/*Gebruik het standaard Font "Lucida Grande".*/
+/*Er is gebruik gemaakt van de volgende kleuren:*/
+/*hsl(63, 56%, 10%) (donkergroen voor de randen)*/
+/*hsl(63, 56%, 38%) (groen voor de header)*/
+/*hsl(23, 100%, 65%) (oranje voor de cirkels)*/
+/*hsl(74, 95%, 93%) (limoengroen voor de achtergrond)*/
+/*De achtergrond-kleur voor de articles is een lichtere versie van de header-kleur.*/
+/*Zorg dat de header bovenaan de pagina blijft staan wanneer je naar beneden scrollt.*/
